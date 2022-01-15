@@ -1,0 +1,22 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 25%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: lightgrey}
+
+th {
+    background-color: lightblue;
+}
+
+tr:hover {background-color: aquamarine;}
